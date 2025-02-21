@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Audio files (uncomment if you don't want to track audio files)
+# *.mp3
+# *.wav
+# *.ogg
+# *.flac
+
+# Generated visualizations
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development settings
+.env
+settings_local.py
