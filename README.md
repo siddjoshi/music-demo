@@ -38,10 +38,13 @@ python music_visualizer.py
 - Real-time audio capture from microphone
 - Live waveform visualization
 - Adjustable visualization parameters (CHUNK size, sample rate)
+- MP3 file upload and playback with real-time waveform visualization
 
 ## Technical Details
 - Uses PyAudio for audio capture
 - Matplotlib for real-time visualization
 - Numpy for audio data processing
+- Pydub for MP3 decoding and playback
+- Tkinter for file selection UI
 - Sample rate: 44.1kHz
 - Frame buffer size: 2048 samples
